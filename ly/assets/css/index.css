@@ -1,0 +1,126 @@
+:root{
+    --padrao:#663399;
+    --aopassar:#c0c0c0;
+}
+*{
+    box-sizing: border-box;
+}
+section{
+    min-height: calc(100vh - 150px);
+    background-color: #ddd;
+    display: flex;
+}
+section aside{
+    min-height: 100%;
+    width: 250px;
+    background-color:#532085
+}
+aside ul, aside a li{
+    margin: 0;
+    padding: 0;
+}
+aside ul a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 15px;
+    
+}
+aside ul a:hover{
+    background-color:#723baa ;
+    border-bottom: 2px solid #c0c0c0;
+}
+aside ul a li{
+    list-style: none;
+}
+
+
+/* parte do login/cadastro do Usuário!*/
+
+article .h1_login{
+    padding: 20px;
+    text-transform: uppercase;
+}
+article .form{
+    padding: 20px;
+}
+article .form input[type=text],
+article .form input[type=email],
+article .form input[type=password]{
+    width: calc(100vw - 260px);
+    height: 35px;
+    margin-top: 10px;
+}
+article .form input[type=submit]{
+    border: 0;
+    padding: 5px;
+    width: 60px;
+    color: #fff;
+    background-color: #532085;
+    cursor: pointer;
+    border-radius: 5px;
+}
+article .cadastrar {
+    font-weight: bold;
+    padding:0px 20px;
+}
+section article{
+    padding-bottom: 20px;
+}
+
+
+/*jornal*/
+#jornal_article{
+    padding: 10px 20px;
+}
+.jornal_info{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/*problema*/
+
+#problema{
+    padding:0px 20px;
+}
+#problema form textarea{
+    width: calc(100vw - 270px);
+    height: 100px;
+    resize: none;
+}
+
+
+/*Parte De ultimas Noticias*/
+
+
+.noticia_u{
+    width: 280px;
+    max-height: 400px;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.noticia_u a img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+
+/*noticia especifica*/
+
+.ultima_noticia{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
